@@ -2,23 +2,18 @@
 using namespace std;
 main()
 {
-	int a[3],shift,i,j;
+	int a,b,c;
+	cout<<"enter 3 numbers";
+	cin>>a>>b>>c;
+	swap(a,b);
+	cout<<a<<"\n"<<b<<"\n"<<c;
+}
+void swap(int x, int y, int z)
+{
+	int temp=x;
+	x=y;
+	y=z;
+	z=temp;
+	cout<<"after shifting";
 	
-	cout<<"enter 3 elements";
-	for(i=0;i<=2;i++)
-	cin>>a[i];
-
-	while(j>=0 && i>=0)
-	{
-		a[i]=a[j];
-		j--;
-		i--;
-	}
-
-	a[i]=shift;
-	cout<<"the shifted array is \n";
-	for(j=0;i<2;j++)
-	cout<<a[j];
-	
-
 }
