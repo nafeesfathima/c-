@@ -2,7 +2,7 @@
 using namespace std;
 main()
 {
-	int f,n,fact(int n);
+	int f,n;
 	cout<<"enter the number to finf factorial \n";
 	cin>>n;
 	f = fact(n);
